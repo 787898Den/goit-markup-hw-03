@@ -1,0 +1,235 @@
+:root {
+  --primary-text-color: #757575;
+  --second-text-color: #ffffff;
+  --primary-title-color: #212121;
+  --accent-color: #2196f3;
+  --third-text-color: rgba(255, 255, 255, 0.6);
+  --fourth-text-color: #f5f4fa;
+  --sixth-text-color: #ececec;
+  --background-color-footer: #2f303a;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0px;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-title-color);
+}
+/*-----header----*/
+.header {
+  background-color: var(--second-text-color);
+}
+.container {
+  width: 1200px;
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+.header-container {
+  width: 1200px;
+
+  border-bottom: 1px solid color var(--sixth-text-color);
+  align-items: center;
+}
+.header-logo {
+  justify-content: center;
+  padding-top: 24px;
+  margin-right: 93px;
+  padding-bottom: 25px;
+}
+.header-nav {
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: red;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 50px;
+}
+.header-conect-item {
+  display: inline;
+  justify-content: center;
+}
+.heading-list {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+.heading-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+.features-item {
+  /* flex-basis: calc((100% - 4 * 30px) / 4); */
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo-link,
+.studio-light,
+.studio-dark {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.studio-dark {
+  color: var(--primary-title-color);
+}
+.studio-light {
+  color: var(--second-text-color);
+}
+.menu-link,
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+.header-contact {
+  color: var(--primary-text-color);
+}
+.header-contact:hover,
+.header-contact:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/*-----hero----- */
+.hero {
+  background-color: var(--background-color-footer);
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.hero-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+.hero-heading {
+  background-color: var(--background-color-footer);
+}
+.hero-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+.hero-title-about {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
+.about-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.heading-button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+.heading-button {
+  cursor: pointer;
+}
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--fourth-text-color);
+  background-color: var(--accent-color);
+}
+.button {
+  cursor: pointer;
+}
+
+/* -----footer----- */
+.footer {
+  background-color: var(--background-color-footer);
+}
+.footer {
+  display: block;
+}
+.footer-address-link,
+.contact-link {
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.contact-link {
+  color: var(--third-text-color);
+}
+.logo-footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.footer-contact-container {
+  padding-bottom: 20px;
+}
+.footer-item {
+  padding-bottom: 9px;
+}
