@@ -49,11 +49,8 @@ body {
   margin-right: 93px;
   padding-bottom: 25px;
 }
-.header-nav {
-  justify-content: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  background-color: red;
+.header-nav:not(:last-child) {
+  margin-right: 50px;
 }
 .nav-item {
   display: flex;
@@ -61,10 +58,11 @@ body {
   align-items: center;
   margin-right: 50px;
 }
-.header-conect-item {
-  display: inline;
-  justify-content: center;
+.header-conect-item:not(:last-child) {
+  margin-right: 50px;
+  justify-content: space-between;
 }
+
 .heading-list {
   display: flex;
   justify-content: space-between;
