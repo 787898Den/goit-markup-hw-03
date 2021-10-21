@@ -243,6 +243,7 @@ img {
 }
 .section-list {
   display: flex;
+  margin-top: 50px;
 }
 .section-item:not(:last-child) {
   margin-right: 30px;
