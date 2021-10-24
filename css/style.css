@@ -271,7 +271,7 @@ button {
   margin-bottom: 30px;
 }
 .project-item {
-  border: solid var(--border-color) 1px;
+  border-bottom: solid var(--border-color) 1px;
 }
 .project-title-about {
   padding-top: 20px;
